@@ -26,9 +26,9 @@ function descitem(desc) {
 // eslint-disable-next-line no-unused-vars
 function wikiitem(desc) {
   const popupWindow = window.open(
-    'https://kol.coldfront.net/thekolwiki/index.php/Special:Search?search=' +
+    'https://wiki.kingdomofloathing.com/index.php?search=' +
       desc +
-      '&go=Go'
+      '&title=Special%3ASearch'
   );
   if (window.focus) {
     popupWindow.focus();
