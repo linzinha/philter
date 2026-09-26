@@ -27,8 +27,7 @@ function descitem(desc) {
 function wikiitem(desc) {
   const popupWindow = window.open(
     'https://wiki.kingdomofloathing.com/index.php?search=' +
-      desc +
-      '&title=Special%3ASearch'
+      desc
   );
   if (window.focus) {
     popupWindow.focus();
