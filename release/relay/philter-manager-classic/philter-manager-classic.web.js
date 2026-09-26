@@ -26,7 +26,7 @@ function descitem(desc) {
 // eslint-disable-next-line no-unused-vars
 function wikiitem(desc) {
   const popupWindow = window.open(
-    'https://wiki.kingdomofloathing.com/index.php?search=' +
+    'https://wiki.kingdomofloathing.com/Special:Search?search=' +
       desc
   );
   if (window.focus) {
